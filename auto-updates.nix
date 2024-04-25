@@ -2,7 +2,7 @@
 
   # Automatic updates, but don't reboot
   system.autoUpgrade = {
-    flake = "github.com:tapszac/nixos-configs";
+    flake = "github:tapszac/nixos-configs";
     enable = true;
     allowReboot = false;
     operation = "boot";
