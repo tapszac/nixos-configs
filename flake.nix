@@ -17,6 +17,8 @@
             ./greetd.nix
             ./gc.nix
             ./fonts.nix
+            ./auto-updates.nix
+            ./update-flake-lock.nix
             home-manager.nixosModules.home-manager
             {
               home-manager.useGlobalPkgs = true;
