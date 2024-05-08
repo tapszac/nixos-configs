@@ -7,6 +7,7 @@
       cd /home/zac/nixos-configs
       git pull
       /run/current-system/sw/bin/nix flake update
+      git add .
       git commit -m "update lock & backup config"
       git push origin main
     '';
